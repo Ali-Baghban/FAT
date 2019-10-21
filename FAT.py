@@ -1,4 +1,6 @@
 print('=====================================')
+print('======={ FAT By Ali Baghban }========')
+print('=====================================')
 filename = input('file to decrypt => ')
 print('=====================================')
 #############################################
@@ -72,23 +74,22 @@ print(alpha)
 sss = ''
 for item,val in alpha.items():
     sss = sss+item+" => "+str(val)+"\n"
-
-print(sss)
+#print(sss)
 file = open('data.txt','w')
 file.write(sss)
 file.close()
 
-file = open('cipher.txt')
-text = file.read()
-text = text.replace('rn','th')
+#file = open('cipher.txt')
+#text = file.read()
+#text = text.replace('rn','th')
 #text = text.replace('s','e')
-text = text.replace('dq','is')
+#text = text.replace('dq','is')
 #text = text.replace('d','a')
 #text = text.replace('x','n')
 #text = text.replace('j','t')
 
-file.close()
+#file.close()
 
-file = open('plaintext.txt','w')
-file.write(text)
-file.close()
+#file = open('plaintext.txt','w')
+#file.write(text)
+#file.close()
